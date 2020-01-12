@@ -41,7 +41,7 @@ sidebar:
       - item: Reading articles on Quora/Medium 
 
 career-profile:
-    title: Career Profile
+    title: Profile
     summary: |
       Hey, I am Ronak. I am working as a Software Engineer at Ugam Solutions ( A Merkle Company ) with the Tech Team mainly on SID and ALS. 
       My technical interests lie in Big Data, Scripting and Back End Web Development.
@@ -71,7 +71,7 @@ experiences:
             TitanGraphDB, JBoss Undertow
 
     - role: Summer Intern
-      time: May 2018 - July 2019
+      time: May 2018 - July 2018
       company: Ugam Solutions (A Merkle Company)
       details: |
         - Analysed brand presence of certain brands from scraped banners/carousels of websites like Macys, Nordstrom and Sephora
