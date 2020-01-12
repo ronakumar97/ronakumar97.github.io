@@ -51,76 +51,51 @@ career-profile:
       Donec quam felis, ultricies nec, pellentesque eu.
       Second paragraph if required.
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+    - degree: B.Tech in Computer Science
+      university: Indraprastha Institute of Information Technology
+      time: 2015 - 2019
+      # details: |
+      #   Describe your study here lorem ipsum dolor sit amet, consectetuer
+      #   adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+      #   sociis natoque penatibus et magnis dis parturient montes, nascetur
+      #   ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+      #   pretium quis, sem.
+      #     - Bullet point
+      #     - Bullet point
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Software Engineer
+      time: July 2019 - Present
+      company: Ugam Solutions (A Merkle Company)
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+          - Working with the Tech Team on SID (Datastore of Streamed and Ported Crawled Data) and ALS (Active Learning System)
+          - Fixing bugs/issues in SID pipeline on Data validation/cleansing/processing after crawling for further Analytics, Warehousing
+          - Building Backend services to be integrated in ALS (Single UI for ML and analytics from various data sources)
+          - Technologies :- Java, Apache HBase, Storm, Kafka, Elasticsearch, Zookeeper, Amazon S3, EC2, Athena, Angular, DropWizard,
+            TitanGraphDB, JBoss Undertow
+
+    - role: Summer Intern
+      time: May 2018 - July 2019
+      company: Ugam Solutions (A Merkle Company)
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        - Analysed brand presence of certain brands from scraped banners/carousels of websites like Macys, Nordstrom and Sephora
+        - Used Computer Vision techniques like SIFT, MSTM, t-SNE Map(for clustering). Open Source OCR Engine Tesseract 4.0 using
+          Python Libraries like openCV, PIL
+        - Implemented Clustering Techniques for detecting similar products in advertisements
+        - Accuracy of 80% was achieved on the verified dataset
+
 projects:
     title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: Twitter Sentiment Analysis (BiSense Emoji Embedding)
+        link: "https://arxiv.org/abs/1807.07961"
+        details: | 
+            - Implemented binary classification of text+emoji tweets having bisense/sarcastic meaning
+            - Used variety of Machine Learning Algorithms like Naive Bayes, SVM, Decision Tree, Adaboost, MLP for getting initial accuracy and
+              Feature vector generation using word2vec and emoji2vec as part of preprocessing
+            - Used Kaggle Tweets Dataset and Scraped Tweets with emojis as final dataset with total 1,93,000 tweets having text+emoji
+            - Used Python Libraries like sklearn, scipy, matplotlib, keras, tensorflow, pickle, tweepy, nltk, word2vec, emoji2vec, h5py
+            - Final Accuracy was 86% for 4-layer DNN and 83% for SVM. Demonstrated results using confusion matrix alongwith Accuracy, F1-Score,
+              Precision and Recall
 
       - title: DevStudio
         link: "#"
@@ -164,23 +139,36 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: Java
+        level: 80%
 
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
+      - name: Python
         level: 95%
 
-      - name: Ruby on Rails
-        level: 85%
+      - name: Node.js
+        level: 70%
 
-      - name: Sketch & Photoshop
+      - name: Apache HBase
+        level: 90%
+
+      - name: Apache Kafka
+        level: 80%
+
+      - name: Apache Storm
         level: 60%
 
+      - name: Elasticsearch
+        level: 80%
+
+      - name: AWS S3
+        level: 80%
+      
+      - name: AWS Athena
+        level: 60%
+      
+      - name: SQL
+        level: 60%
+      
+
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    Copyright @Ronak Kumar
