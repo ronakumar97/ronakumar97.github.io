@@ -112,6 +112,9 @@ skills:
       - name: Python
         level: 95%
 
+       - name: C/C++
+        level: 80%
+
       - name: Node.js
         level: 70%
 
