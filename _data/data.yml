@@ -32,27 +32,24 @@ sidebar:
         level: Native
 
     interests:
-      - item: Climbing
-        link:
+      - item: Listening Music
 
-      - item: Snowboarding
-        link:
+      - item: Cycling
 
-      - item: Cooking
-        link:
+      - item: Table Tennis
+
+      - item: Reading articles on Quora/Medium 
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Hey, I am Ronak. I am working as a Software Engineer at Ugam Solutions ( A Merkle Company ) with the Tech Team mainly on SID and ALS. 
+      My technical interests lie in Big Data, Scripting and Back End Web Development.
+      Rest of my productive time is spent listening music, podcasts, travelling, reading blogs, playing table tennis :) 
+
 education:
     - degree: B.Tech in Computer Science
-      university: Indraprastha Institute of Information Technology
+      university: Indraprastha Institute of Information Technology, Delhi
       time: 2015 - 2019
       # details: |
       #   Describe your study here lorem ipsum dolor sit amet, consectetuer
@@ -87,53 +84,23 @@ projects:
     title: Projects
     assignments:
       - title: Twitter Sentiment Analysis (BiSense Emoji Embedding)
+        tagline: Implemented binary classification of text+emoji tweets having bisense/sarcastic meaning
         link: "https://arxiv.org/abs/1807.07961"
-        details: | 
-            - Implemented binary classification of text+emoji tweets having bisense/sarcastic meaning
-            - Used variety of Machine Learning Algorithms like Naive Bayes, SVM, Decision Tree, Adaboost, MLP for getting initial accuracy and
-              Feature vector generation using word2vec and emoji2vec as part of preprocessing
-            - Used Kaggle Tweets Dataset and Scraped Tweets with emojis as final dataset with total 1,93,000 tweets having text+emoji
-            - Used Python Libraries like sklearn, scipy, matplotlib, keras, tensorflow, pickle, tweepy, nltk, word2vec, emoji2vec, h5py
-            - Final Accuracy was 86% for 4-layer DNN and 83% for SVM. Demonstrated results using confusion matrix alongwith Accuracy, F1-Score,
-              Precision and Recall
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: Foodify
+        tagline: Created an Android App named Foodify, a Complete Food Suggesting App
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: Artistic Rendering of Digital Images
+        tagline: Embedding any given source texture into a target digital image
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      - title: Secure Banking System
+        tagline: Build a banking system using Node.js and Express as the backend framework
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: IIIT-Delhi Student App
+        tagline: Made a Student Android App for my College Students
 
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: Preventing Molestation using Twitter
+        tagline: Created an Android App for predicting molestation prone areas near a user
 
 skills:
     title: Skills &amp; Proficiency
