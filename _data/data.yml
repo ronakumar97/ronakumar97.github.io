@@ -20,9 +20,7 @@ sidebar:
     gitlab:
     bitbucket:
     twitter: '@ronakumar97'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
+    facebook: 'ronakumar97'
 
     languages:
       - idiom: English
@@ -141,4 +139,4 @@ skills:
       
 
 footer: >
-    Copyright @Ronak Kumar
+    Copyright &copy; @Ronak Kumar
