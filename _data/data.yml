@@ -17,10 +17,7 @@ sidebar:
     # website: blog.webjeda.com #do not add http://
     linkedin: ronakumar97
     github: ronakumar97
-    gitlab:
-    bitbucket:
     twitter: '@ronakumar97'
-    facebook: 'ronakumar97'
 
     languages:
       - idiom: English
@@ -139,4 +136,4 @@ skills:
       
 
 footer: >
-    Copyright &copy; @Ronak Kumar
+    Copyright &copy; Ronak Kumar
