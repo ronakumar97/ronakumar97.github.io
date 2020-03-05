@@ -56,7 +56,7 @@ education:
       #     - Bullet point
 experiences:
     - role: Software Engineer
-      time: July 2019 - Present
+      time: July 2019 - Feb 2020
       company: Ugam Solutions (A Merkle Company)
       details: |
           - Working with the Tech Team on SID (Datastore of Streamed and Ported Crawled Data) and ALS (Active Learning System)
