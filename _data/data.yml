@@ -38,7 +38,7 @@ sidebar:
 career-profile:
     title: Profile
     summary: |
-      Hey, I am Ronak. I am working as a Software Engineer at Ugam Solutions ( A Merkle Company ) with the Tech Team mainly on SID and ALS. 
+      Hey, I am Ronak. I am working as a Software Engineer at BharatPe with the Backend Tech Team mainly. 
       My technical interests lie in Big Data, Scripting and Back End Web Development.
       Rest of my productive time is spent listening music, podcasts, travelling, reading blogs, playing table tennis :) 
 
@@ -56,14 +56,14 @@ education:
       #     - Bullet point
 experiences:
     - role: Software Development Engineer
-      time: July 2019 - Feb 2020
+      time: March 2020 - Present
       company: BharatPe
       details: |
           - Working with the Backend and Big Data Team
           - Migrated entire BP MySQL DB to Clickhouse using CDC Tool Debezium, Apache Kafka, Spring Boot,Docker
 
     - role: Software Engineer
-      time: July 2019 - Feb 2020
+      time: July 2019 - February 2020
       company: Ugam Solutions (A Merkle Company)
       details: |
           - Worked with the Tech Team on SID (Datastore of Streamed and Ported Crawled Data) and ALS (Active Learning System)
