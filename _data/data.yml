@@ -59,30 +59,25 @@ experiences:
       time: March 2020 - Present
       company: BharatPe
       details: |
-          - Working with the Backend and Big Data Team
-          - Migrated entire BP MySQL DB to Clickhouse using CDC Tool Debezium, Apache Kafka, Spring Boot,Docker
+          - Working with the Backend majorly on Payments
 
     - role: Software Engineer
       time: July 2019 - February 2020
       company: Ugam Solutions (A Merkle Company)
       details: |
-          - Worked with the Tech Team on SID (Datastore of Streamed and Ported Crawled Data) and ALS (Active Learning System)
+          - Worked with the Tech Team on SID (Datastore of Streamed and Ported Crawled Data) and ALS
           - Fixed bugs/issues in SID ETL pipeline on Data validation/cleansing/processing after crawling for the purpose of Analytics, Warehousing
           - Wrote ProductCleanUtility App for data deletion from HBase, ES based on certain conditions using input CSV in AWS S3. Upgraded HBase Versions in SID to 2.1.0. Learned about ES Snapshot and Restore
           - Built REST API using Flask for client Anko, fetching transactions and refunds in specified format and storing them into S3
           - Built a ML model in distributed environment to provide personalized recommendations of product based on customer shopping history using PySpark framework. 
-          - Technologies :- Java, Apache HBase, Storm, Kafka, Elasticsearch, Zookeeper, Amazon S3, EC2, Athena, Angular, DropWizard,
-            TitanGraphDB, JBoss Undertow
 
     - role: Summer Intern
       time: May 2018 - July 2018
       company: Ugam Solutions (A Merkle Company)
       details: |
-        - Analysed brand presence of certain brands from scraped banners/carousels of websites like Macys, Nordstrom and Sephora
-        - Used Computer Vision techniques like SIFT, MSTM, t-SNE Map(for clustering). Open Source OCR Engine Tesseract 4.0 using
-          Python Libraries like openCV, PIL
+        - Analysed brand presence of certain brands from scraped banners/carousels from websites
+        - Used Computer Vision techniques like SIFT, MSTM, t-SNE Map(for clustering) and OCR Tesseract
         - Implemented Clustering Techniques for detecting similar products in advertisements
-        - Accuracy of 80% was achieved on the verified dataset
 
 projects:
     title: Projects
