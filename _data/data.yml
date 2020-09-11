@@ -60,6 +60,10 @@ experiences:
       company: BharatPe
       details: |
           - Working with the Backend majorly on Payments
+          - Wrote entire migration code from MySQL to Clickhouse using CDC Tool Debezium, Apache Kafka, Spring Boot and Docker
+          - Started Request Money including Collect Request Feature for receiving instant payments from customers
+          - Integrated Bonushub/PaySwiff API's in BharatSwipe callbacks
+          - Developed Backend API’s and implemented cron jobs in several repositories
 
     - role: Software Engineer
       time: July 2019 - February 2020
