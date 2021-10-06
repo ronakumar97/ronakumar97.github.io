@@ -1,0 +1,150 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Ronak Kumar
+    tagline: Software Engineer
+    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: me.ronak1997@gmail.com
+    phone: +1(416)-856-2687
+    # website: blog.webjeda.com #do not add http://
+    linkedin: ronakumar97
+    github: ronakumar97
+    twitter: '@ronakumar97'
+
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: Hindi
+        level: Native
+
+    interests:
+      - item: Listening Music
+
+      - item: Cycling
+
+      - item: Table Tennis
+
+      - item: Reading articles on Quora/Medium 
+
+career-profile:
+    title: Profile
+    summary: |
+      Hey, I am Ronak. Previously, I worked as a Software Engineer at BharatPe with the Backend Tech Team. 
+      My technical interests lie in Big Data, Scripting and Back End Web Development.
+      Rest of my productive time is spent listening music, podcasts, travelling, reading blogs, playing table tennis :) 
+
+education:
+    - degree: Graduate Certificate in Artificial Intelligence Analysis, Design and Implementation
+      university: Durham College, Oshawa, Ontario, Canada
+      time: 2021 - 2022
+    - degree: Graduate Certificate in Big Data Solution Architecture
+      university: Conestoga College, Waterloo, Ontario, Canada
+      time: 2021 - 2021
+    - degree: B.Tech in Computer Science
+      university: Indraprastha Institute of Information Technology, Delhi
+      time: 2015 - 2019
+      # details: |
+      #   Describe your study here lorem ipsum dolor sit amet, consectetuer
+      #   adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+      #   sociis natoque penatibus et magnis dis parturient montes, nascetur
+      #   ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+      #   pretium quis, sem.
+      #     - Bullet point
+      #     - Bullet point
+experiences:
+    - role: Software Development Engineer
+      time: March 2020 - September 2020
+      company: BharatPe
+      details: |
+          - Working with the Backend majorly on Payments
+          - Wrote entire migration code from MySQL to Clickhouse using CDC Tool Debezium, Apache Kafka, Spring Boot and Docker
+          - Started Request Money including Collect Request Feature for receiving instant payments from customers
+          - Integrated Bonushub/PaySwiff API's in BharatSwipe callbacks
+          - Developed Backend API’s and implemented cron jobs in several repositories
+
+    - role: Software Engineer
+      time: July 2019 - February 2020
+      company: Ugam Solutions (A Merkle Company)
+      details: |
+          - Worked with the Tech Team on SID (Datastore of Streamed and Ported Crawled Data) and ALS
+          - Fixed bugs/issues in SID ETL pipeline on Data validation/cleansing/processing after crawling for the purpose of Analytics, Warehousing
+          - Wrote ProductCleanUtility App for data deletion from HBase, ES based on certain conditions using input CSV in AWS S3. Upgraded HBase Versions in SID to 2.1.0. Learned about ES Snapshot and Restore
+          - Built REST API using Flask for client Anko, fetching transactions and refunds in specified format and storing them into S3
+          - Built a ML model in distributed environment to provide personalized recommendations of product based on customer shopping history using PySpark framework. 
+
+    - role: Summer Intern
+      time: May 2018 - July 2018
+      company: Ugam Solutions (A Merkle Company)
+      details: |
+        - Analysed brand presence of certain brands from scraped banners/carousels from websites
+        - Used Computer Vision techniques like SIFT, MSTM, t-SNE Map(for clustering) and OCR Tesseract
+        - Implemented Clustering Techniques for detecting similar products in advertisements
+
+projects:
+    title: Projects
+    assignments:
+      - title: Twitter Sentiment Analysis (BiSense Emoji Embedding)
+        tagline: Implemented binary classification of text+emoji tweets having bisense/sarcastic meaning
+        link: "https://arxiv.org/abs/1807.07961"
+
+      - title: Foodify
+        tagline: Created an Android App named Foodify, a Complete Food Suggesting App
+
+      - title: Artistic Rendering of Digital Images
+        tagline: Embedding any given source texture into a target digital image
+
+      - title: Secure Banking System
+        tagline: Build a banking system using Node.js and Express as the backend framework
+
+      - title: IIIT-Delhi Student App
+        tagline: Made a Student Android App for my College Students
+
+      - title: Preventing Molestation using Twitter
+        tagline: Created an Android App for predicting molestation prone areas near a user
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: Java
+        level: 80%
+
+      - name: Python
+        level: 95%
+
+      - name: C/C++
+        level: 80%
+
+      - name: Node.js
+        level: 70%
+
+      - name: Apache HBase
+        level: 90%
+
+      - name: Apache Kafka
+        level: 80%
+        
+      - name: Elasticsearch
+        level: 60%
+
+      - name: AWS S3
+        level: 80%
+      
+      - name: AWS Athena
+        level: 60%
+      
+      - name: mySQL
+        level: 80%
+      
+
+footer: >
+    Copyright &copy; Ronak Kumar
