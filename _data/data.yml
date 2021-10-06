@@ -38,7 +38,7 @@ sidebar:
 career-profile:
     title: Profile
     summary: |
-      Hey, I am Ronak. Previously, I worked as a Software Engineer at BharatPe with the Backend Tech Team. 
+      Hey, I am Ronak. Previously, I worked as a Software Engineer at BharatPe and Ugam with the Tech Team. 
       My technical interests lie in Big Data, Scripting and Back End Web Development.
       Rest of my productive time is spent listening music, podcasts, travelling, reading blogs, playing table tennis :) 
 
@@ -46,8 +46,8 @@ education:
     - degree: Graduate Certificate (Artificial Intelligence)
       university: Durham College, Oshawa, Ontario, Canada
       time: 2021 - 2022
-    - degree: B.Tech in Computer Science
-      university: Graduate Certificate (Big Data Solution Architecture)
+    - degree: Graduate Certificate (Big Data Solution Architecture)
+      university: Conestoga College, Waterloo, Ontario, Canada
       time: 2021 - 2021
     - degree: B.Tech in Computer Science
       university: Indraprastha Institute of Information Technology, Delhi
