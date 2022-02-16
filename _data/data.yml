@@ -1,7 +1,6 @@
 #
 # Be aware that even a small syntax error here can lead to failures in output.
 #
-
 sidebar:
     about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
@@ -40,7 +39,7 @@ career-profile:
     summary: |
       Hey, I am Ronak. Previously, I worked as a Software Engineer at BharatPe and Ugam with the Tech Team. 
       My technical interests lie in Big Data, Scripting and Back End Web Development.
-      Rest of my productive time is spent listening music, podcasts, travelling, reading blogs, playing table tennis :) 
+      Rest of my productive time is spent listening music, travelling, playing badminton, gaming :) 
 
 education:
     - degree: Graduate Certificate (Artificial Intelligence)
@@ -65,21 +64,18 @@ experiences:
       time: March 2020 - September 2020
       company: BharatPe
       details: |
-          - Working with the Backend majorly on Payments
-          - Wrote entire migration code from MySQL to Clickhouse using CDC Tool Debezium, Apache Kafka, Spring Boot and Docker
-          - Started Request Money including Collect Request Feature for receiving instant payments from customers
-          - Integrated Bonushub/PaySwiff API's in BharatSwipe callbacks
-          - Developed Backend API’s and implemented cron jobs in several repositories
+        - Developed MySQL to Clickhouse DB migration app resulting in query performance using CDC Tool Debezium, Apache Kafka, Spring Boot
+        - Implemented payment link feature resulting in faster experience in accepting customers payments via SMS
+        - Added backend APIs, monitoring scripts and scheduled cron jobs in various repositories
 
     - role: Software Engineer
       time: July 2019 - February 2020
       company: Ugam Solutions (A Merkle Company)
       details: |
-          - Worked with the Tech Team on SID (Datastore of Streamed and Ported Crawled Data) and ALS
-          - Fixed bugs/issues in SID ETL pipeline on Data validation/cleansing/processing after crawling for the purpose of Analytics, Warehousing
-          - Wrote ProductCleanUtility App for data deletion from HBase, ES based on certain conditions using input CSV in AWS S3. Upgraded HBase Versions in SID to 2.1.0. Learned about ES Snapshot and Restore
-          - Built REST API using Flask for client Anko, fetching transactions and refunds in specified format and storing them into S3
-          - Built a ML model in distributed environment to provide personalized recommendations of product based on customer shopping history using PySpark framework. 
+        - Identified and fixed bugs in the ETL pipeline on data validation, cleansing and processing once web scraped
+        - Developed ProductCleanUtility App for automated data deletion from HBase, Elasticsearch based on a CSV condition file stored in S3 bucket
+        - Programmed a REST API collection for fetching transactions and refunds in specified format and storing them into S3 buckets resulting in faster data retrieval for the client
+        - Assisted in ML model build process to provide personalized recommendations for products based on customer shopping history using PySpark framework
 
     - role: Summer Intern
       time: May 2018 - July 2018
@@ -133,10 +129,7 @@ skills:
       - name: Apache Kafka
         level: 80%
 
-      - name: Spring Boot
-        level: 50%
-
-      - name: Elasticsearch
+      - name: SQL
         level: 80%
 
       - name: AWS S3
