@@ -64,26 +64,17 @@ experiences:
       time: March 2020 - September 2020
       company: BharatPe
       details: |
-        - Developed MySQL to Clickhouse DB migration app resulting in query performance using CDC Tool Debezium, Apache Kafka, Spring Boot
-        - Implemented payment link feature resulting in faster experience in accepting customers payments via SMS
-        - Added backend APIs, monitoring scripts and scheduled cron jobs in various repositories
+        - Developed MySQL to Yandex Clickhouse DB (open-source) migration app boosting query performance by 250 times for the BA team using CDC Tool Debezium, Apache Kafka, Spring Boot and Docker
+        - Contributed backend APIs, monitoring scripts, scheduled cron jobs incorporating new features into tech infrastructure
 
     - role: Software Engineer
       time: July 2019 - February 2020
       company: Ugam Solutions (A Merkle Company)
       details: |
-        - Identified and fixed bugs in the ETL pipeline on data validation, cleansing and processing once web scraped
-        - Developed ProductCleanUtility App for automated data deletion from HBase, Elasticsearch based on a CSV condition file stored in S3 bucket
-        - Programmed a REST API collection for fetching transactions and refunds in specified format and storing them into S3 buckets resulting in faster data retrieval for the client
-        - Assisted in ML model build process to provide personalized recommendations for products based on customer shopping history using PySpark framework
-
-    - role: Summer Intern
-      time: May 2018 - July 2018
-      company: Ugam Solutions (A Merkle Company)
-      details: |
-        - Analysed brand presence of certain brands from scraped banners/carousels from websites
-        - Used Computer Vision techniques like SIFT, MSTM, t-SNE Map(for clustering) and OCR Tesseract
-        - Implemented Clustering Techniques for detecting similar products in advertisements
+        - Identified and fixed bugs on data validation, cleansing and processing once web scraped
+        - Developed ProductCleanUtility App for automated data deletion from HBase, Elasticsearch based on a CSV condition file stored in S3 bucket reducing manual deletion time
+        - Programmed a REST API collection for fetching transactions and refunds in specified format and storing them into S3 buckets boosting query process
+        - Assisted in ML model build process to provide personalised recommendations for products based on customers shopping history using PySpark framework
 
 projects:
     # title: Projects
@@ -117,19 +108,16 @@ skills:
       - name: Python
         level: 95%
 
-      - name: C/C++
-        level: 80%
+      - name: Apache Kafka
+        level: 70%
 
-      - name: Node.js
+      - name: Spring Boot
         level: 60%
 
-      - name: Apache HBase
-        level: 90%
-
-      - name: Apache Kafka
+      - name: MySQL
         level: 80%
 
-      - name: SQL
+      - name: MongoDB
         level: 80%
 
       - name: AWS S3
@@ -143,10 +131,6 @@ skills:
 
       - name: AWS Cloudwatch
         level: 80%
-
-      - name: Machine Learning (Basics)
-        level: 70%
-      
 
 footer: >
     Copyright &copy; Ronak Kumar
