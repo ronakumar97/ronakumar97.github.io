@@ -1,6 +1,3 @@
-#
-# Be aware that even a small syntax error here can lead to failures in output.
-#
 sidebar:
     about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
@@ -61,16 +58,16 @@ education:
       #     - Bullet point
 experiences:
     - role: Research Assistant - Coop
-          time: January 2022 - September 2022
-          company: Durham College
-          details: |
-            - Developed Plant Disease Classification script to identify possible deficiencies in cannabis leaf
-            - Performed colour detection, curling/non-curling leaves through contour detection and pre-trained models ResNet, VGG16, custom trained model respectively
-            - Working on Django based web app project implementing fault rules from various sensors for analytics and visualisation purposes
-            - Contributed backend APIs, monitoring scripts, scheduled cron jobs incorporating new features into tech infrastructure
-            - Worked on predicting paint material and repair cost required for an incoming vehicle
-            - Performed EDA, data cleaning, feature engineering and selection on the given dataset with one million data points
-            - Categorised Vehicle Body style using Back4App DB and implemented CatBoostRegressor to achieve an R2 score of 0.81 in predicting the Paint Material Cost
+      time: January 2022 - September 2022
+      company: Durham College
+      details: |
+        - Developed Plant Disease Classification script to identify possible deficiencies in cannabis leaf
+        - Performed colour detection, curling/non-curling leaves through contour detection and pre-trained models ResNet, VGG16, custom trained model respectively
+        - Working on Django based web app project implementing fault rules from various sensors for analytics and visualisation purposes
+        - Contributed backend APIs, monitoring scripts, scheduled cron jobs incorporating new features into tech infrastructure
+        - Worked on predicting paint material and repair cost required for an incoming vehicle
+        - Performed EDA, data cleaning, feature engineering and selection on the given dataset with one million data points
+        - Categorised Vehicle Body style using Back4App DB and implemented CatBoostRegressor to achieve an R2 score of 0.81 in predicting the Paint Material Cost
 
     - role: Software Development Engineer
       time: March 2020 - September 2020
@@ -89,26 +86,6 @@ experiences:
         - Assisted in ML model build process to provide personalised recommendations for products based on customers shopping history fulfilling business requirements
 
 projects:
-    # title: Projects
-    # assignments:
-    #   - title: Twitter Sentiment Analysis (BiSense Emoji Embedding)
-    #     tagline: Implemented binary classification of text+emoji tweets having bisense/sarcastic meaning
-    #     link: "https://arxiv.org/abs/1807.07961"
-
-    #   - title: Foodify
-    #     tagline: Created an Android App named Foodify, a Complete Food Suggesting App
-
-    #   - title: Artistic Rendering of Digital Images
-    #     tagline: Embedding any given source texture into a target digital image
-
-    #   - title: Secure Banking System
-    #     tagline: Build a banking system using Node.js and Express as the backend framework
-
-    #   - title: IIIT-Delhi Student App
-    #     tagline: Made a Student Android App for my College Students
-
-    #   - title: Preventing Molestation using Twitter
-    #     tagline: Created an Android App for predicting molestation prone areas near a user
 
 skills:
     title: Skills &amp; Proficiency
@@ -146,4 +123,3 @@ skills:
 
 footer: >
     Copyright &copy; Ronak Kumar
-
