@@ -60,21 +60,33 @@ education:
       #     - Bullet point
       #     - Bullet point
 experiences:
+    - role: Research Assistant - Coop
+          time: January 2022 - September 2022
+          company: Durham College
+          details: |
+            - Developed Plant Disease Classification script to identify possible deficiencies in cannabis leaf
+            - Performed colour detection, curling/non-curling leaves through contour detection and pre-trained models ResNet, VGG16, custom trained model respectively
+            - Working on Django based web app project implementing fault rules from various sensors for analytics and visualisation purposes
+            - Contributed backend APIs, monitoring scripts, scheduled cron jobs incorporating new features into tech infrastructure
+            - Worked on predicting paint material and repair cost required for an incoming vehicle
+            - Performed EDA, data cleaning, feature engineering and selection on the given dataset with one million data points
+            - Categorised Vehicle Body style using Back4App DB and implemented CatBoostRegressor to achieve an R2 score of 0.81 in predicting the Paint Material Cost
+
     - role: Software Development Engineer
       time: March 2020 - September 2020
       company: BharatPe
       details: |
-        - Developed MySQL to Yandex Clickhouse DB (open-source) migration app boosting query performance by 250 times for the BA team using CDC Tool Debezium, Apache Kafka, Spring Boot and Docker
-        - Contributed backend APIs, monitoring scripts, scheduled cron jobs incorporating new features into tech infrastructure
+        - Developed MySQL to Yandex Clickhouse DB migration app boosting query performance by 250 times for the analytical team using CDC Tool Debezium, Apache Kafka and Spring Boot
+        - Worked with the data engineering team, contributed backend APIs, monitored python scripts, writing SQL queries incorporating new features into tech infrastructure
 
     - role: Software Engineer
       time: July 2019 - February 2020
       company: Ugam Solutions (A Merkle Company)
       details: |
-        - Identified and fixed bugs on data validation, cleansing and processing once web scraped
-        - Developed ProductCleanUtility App for automated data deletion from HBase, ES based on a CSV condition file stored in S3 bucket reducing manual deletion time
-        - Programmed a REST API collection for fetching transactions and refunds in specified format and storing them into S3 buckets boosting query process
-        - Assisted in ML model build process to provide personalised recommendations for products based on customers shopping history using PySpark framework
+        - Identified, fixed bugs and performed code reviews on data validation, cleansing and processing once web scraped
+        - Developed ProductCleanUtility App for automated data deletion from HBase, Elasticsearch based on a CSV condition file stored in S3 bucket reducing manual deletion time 
+        - Programmed a REST API collection for fetching transactions and refunds in specified format and storing them into S3 buckets and boosting query process
+        - Assisted in ML model build process to provide personalised recommendations for products based on customers shopping history fulfilling business requirements
 
 projects:
     # title: Projects
@@ -134,3 +146,4 @@ skills:
 
 footer: >
     Copyright &copy; Ronak Kumar
+
