@@ -1,16 +1,15 @@
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    about: True
+    education: True
 
     # Profile information
     name: Ronak Kumar
     tagline: Software Engineer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    avatar: profile.png
 
     # Sidebar links
     email: me.ronak1997@gmail.com
-    phone: 14168562687
-    # website: blog.webjeda.com #do not add http://
+    # phone: 14168562687
     linkedin: ronakumar97
     github: ronakumar97
     twitter: '@ronakumar97'
@@ -48,14 +47,7 @@ education:
     - degree: B.Tech in Computer Science
       university: Indraprastha Institute of Information Technology, Delhi
       time: 2015 - 2019
-      # details: |
-      #   Describe your study here lorem ipsum dolor sit amet, consectetuer
-      #   adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      #   sociis natoque penatibus et magnis dis parturient montes, nascetur
-      #   ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      #   pretium quis, sem.
-      #     - Bullet point
-      #     - Bullet point
+
 experiences:
     - role: Research Assistant - Coop
       time: January 2022 - September 2022
@@ -92,7 +84,7 @@ skills:
 
     toolset:
       - name: Java
-        level: 80%
+        level: 90%
 
       - name: Python
         level: 95%
@@ -101,6 +93,12 @@ skills:
         level: 70%
 
       - name: Spring Boot
+        level: 70%
+
+      - name: Flask
+        level: 80%
+
+      - name: Django
         level: 60%
 
       - name: MySQL
