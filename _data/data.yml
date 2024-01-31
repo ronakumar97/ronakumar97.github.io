@@ -50,32 +50,38 @@ education:
 
 experiences:
     - role: Research Assistant - Coop
-      time: January 2022 - September 2022
+      time: January 2022 - April 2023
       company: Durham College
       details: |
-        - Developed Plant Disease Classification script to identify possible deficiencies in cannabis leaf
-        - Performed colour detection, curling/non-curling leaves through contour detection and pre-trained models ResNet, VGG16, custom trained model respectively
-        - Working on Django based web app project implementing fault rules from various sensors for analytics and visualisation purposes
-        - Contributed backend APIs, monitoring scripts, scheduled cron jobs incorporating new features into tech infrastructure
-        - Worked on predicting paint material and repair cost required for an incoming vehicle
-        - Performed EDA, data cleaning, feature engineering and selection on the given dataset with one million data points
-        - Categorised Vehicle Body style using Back4App DB and implemented CatBoostRegressor to achieve an R2 score of 0.81 in predicting the Paint Material Cost
+        - Programmed a Plant Disease Classification application using Python, Tensorflow and Keras helping the organization identify possible deficiencies in cannabis leaves with about 95% accuracy
+        - Implemented a machine learning model for predicting paint material and repair cost of an oncoming vehicle at the mechanic shop with 82% accuracy
+        - Performed EDA, data cleaning, feature engineering, unleashing the power of ensemble learning with more than 90% accuracy and hosted the streamlit live web app on Heroku
+        - Participated in code reviews, making improvements to enhance code quality in an Agile/Scrum environment to deliver project milestones on time
+        
+    - role: Python Developer
+      time: September 2020 - August 2021
+      company: MedPac Systems
+      details: |
+        - Collaborated in the design and implementation of robust integration solutions, ensuring adherence to coding standards and best practices
+        - Added various features in existing Hospital Information System utilizing Flask, SQLite, HTML, CSS
+        - Utilized Python to develop and maintain REST APIs, integrating data formats such as JSON for seamless communications
+        - Demonstrated meticulous attention to detail with exceptional documentation skills to facilitate seamless collaboration with the team members
 
     - role: Software Development Engineer
       time: March 2020 - September 2020
       company: BharatPe
       details: |
-        - Developed MySQL to Yandex Clickhouse DB migration app boosting query performance by 250 times for the analytical team using CDC Tool Debezium, Apache Kafka and Spring Boot
-        - Worked with the data engineering team, contributed backend APIs, monitored python scripts, writing SQL queries incorporating new features into tech infrastructure
+        - Spearheaded development of MySQL to Clickhouse database migration application boosting query performance by 250 times using CDC tool Debezium, Spring Boot and Kafka
+        - Designed RESTful API solutions for the payments department using Flask, Spring Boot, monitoring scripts and cron jobs thereby incorporating feedback and new features into the tech infrastructure
 
     - role: Software Engineer
       time: July 2019 - February 2020
-      company: Ugam Solutions (A Merkle Company)
+      company: Merkle
       details: |
-        - Identified, fixed bugs and performed code reviews on data validation, cleansing and processing once web scraped
-        - Developed ProductCleanUtility App for automated data deletion from HBase, Elasticsearch based on a CSV condition file stored in S3 bucket reducing manual deletion time 
-        - Programmed a REST API collection for fetching transactions and refunds in specified format and storing them into S3 buckets and boosting query process
-        - Assisted in ML model build process to provide personalised recommendations for products based on customers shopping history fulfilling business requirements
+        - Automated crawled data deletion tasks from data stored in the pipeline based on a CSV condition file stored in S3 bucket enhancing efficiency and eliminating manual redundancy
+        - Coordinated in machine learning model build process using Python to provide personalized recommendations for products based on customers’ shopping history fulfilling business requirements and exceeding client’s expectations 
+        - Delivered REST API collections with Python, Flask, Postman using Square’s Open API internally for extracting transactions and refunds in specific format, storing them into S3 buckets thereby boosting and streamlining client’s query process
+        - Learned the fundamental knowledge of core web principals, HTTP and web servers
 
 projects:
 
